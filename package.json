@@ -72,6 +72,9 @@
     "vitepress": "1.0.0-rc.20",
     "vue": "^3.3.4"
   },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
   "lint-staged": {
     "*.{js,ts,tsx,vue,md}": [
       "eslint --cache --fix"
