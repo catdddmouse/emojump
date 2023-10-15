@@ -24,7 +24,7 @@ export default withPwa(defineConfig({
     root: { label: '简体中文', lang: 'zh-CN' },
   },
   themeConfig: {
-    logo: './chodocs-logo.svg',
+    logo: './emojump-logo.png',
     outline: 'deep',
     docFooter: {
       prev: '上一篇',
@@ -40,8 +40,8 @@ export default withPwa(defineConfig({
     },
     lastUpdatedText: '最后一次更新于',
     footer: {
-      message: `用心去做高质量的专业前端内容网站，欢迎 <a target="_blank" style="color: var(--vp-c-brand)" href="${github}">star ⭐</a> 让更多人发现`,
-      copyright: `<a target="_blank" href="${github}/blob/main/LICENSE">MIT License</a> | 版权所有 © 2022-${new Date().getFullYear()} <a target="_blank" href="${github}">Chocolate and ChoDocs contributors</a>`,
+      message: '用心去做高质量的心理咨询内容网站',
+      copyright: `<a target="_blank" href="${github}/blob/main/LICENSE">MIT License</a> | 版权所有 © 2021-${new Date().getFullYear()} emojump`,
     },
     nav: [
       { text: '💭 学习圈子', link: '/zsxq' },
