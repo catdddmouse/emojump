@@ -1,46 +1,49 @@
 ---
 layout: home
 
-title: emoJump
+title: 与你青心
 titleTemplate: 一站式心理咨询内容网站，包括心理AI工具、学习路线、知识体系
 
 hero:
-  name: emoJump
-  text: "智能心理AI SaaS服务供应商"
+  name: 与你青心
+  text: "Psycho-AI: Intelligent SaaS Solutions"
   tagline: |
     为心理咨询师个人、企业、机构打造AI全链路服务
-#  image:
-#    src: /love.svg
-#    alt: EmoJump
+  image:
+    src: /conver.png
+    alt: ChoDocs
   actions:
     - theme: brand
-      text: 开始阅读
+      text: 在线咨询
       link: /guide
-    - theme: alt
-      text: 学习圈子
-      link: /zsxq
-    - theme: alt
-      text: 心理周边
-      link: /interview/
+    # - theme: alt
+    #   text: 互助圈子
+    #   link: /zsxq
+    # - theme: alt
+    #   text: 心理周边
+    #   link: /interview/
 features:
   - icon: 📋
-    title: AI共听
-    details: 逐字文稿生成, 来访话题总结
+    title: 心理咨询
+    details: <与你青心>提供线上心理咨询服务。
+  - icon: 📋
+    title: 智能话语分析
+    details: 自动生成逐字文稿，智能总结会谈主题
 #    link: /interview/
 #    linkText: 立即体验
   - icon: 💬
-    title: AI陪练
-    details: AI扮演不同情况的来访者，深度模拟来访场景。
+    title: 模拟来访者
+    details: AI模拟各种心理咨询场景，增强咨询师实战能力
 #    link: /program/npm-package/
 #    linkText: 立即体验
   - icon: 🌱
-    title: AI督导
-    details: 资深督导与你随时探讨案例，让你快速成长。
+    title: AI辅导助手
+    details: 随时与资深导师探讨案例，促进专业成长
 #    link: /algorithm/guide/
 #    linkText: 立即体验
   - icon: 🔧
-    title: AI测评
-    details: 多套AI测评题目，让你快速了解来访者个人背景信息。
+    title: 心理测评工具
+    details: 多元化AI心理测评，快速洞悉来访者背景
 #    link: /memo/git-command/
 #    linkText: 开始查阅
 #  - icon: 💭

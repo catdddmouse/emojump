@@ -14,7 +14,7 @@ export default withPwa(defineConfig({
   outDir: '../dist',
   title: name,
   description,
-  appearance: 'dark',
+  appearance: false,
   lastUpdated: true,
   useWebFonts: false,
   markdown: {
@@ -41,40 +41,43 @@ export default withPwa(defineConfig({
     lastUpdatedText: '最后一次更新于',
     footer: {
       message: '用心去做高质量的心理咨询内容网站',
-      copyright: `<a target="_blank" href="${github}/blob/main/LICENSE">MIT License</a> | 版权所有 © 2021-${new Date().getFullYear()} emojump`,
+      copyright: `ICP备案/许可证号: <a target="_blank" href="https://beian.miit.gov.cn">粤ICP备2023097025号</a> | 版权所有 © 2021-${new Date().getFullYear()} | 佛山市青鑫网络科技有限公司`,
     },
     nav: [
-      { text: '💭 学习圈子', link: '/zsxq' },
-      {
-        text: '🔥 专栏',
-        items: [
-          { text: '🔥 前端算法', link: '/algorithm/guide/' },
-          { text: '🔥 设计模式', link: '/patterns/guide/' },
-          { text: '📋 面试大全', link: '/interview/' },
-        ],
-      },
-      {
-        text: '编程',
-        items: [
-          { text: '⭐ 资源导航', link: '/favorites' },
-          { text: '💻 编程学习', link: '/program/' },
-          { text: '🔧 编程工具', link: '/tool/' },
-        ],
-      },
-      {
-        text: '洞见',
-        items: [
-          { text: '✏️ 随笔', link: '/essay/' },
-          { text: '🌱 青葱岁月', link: '/green/ch' },
-        ],
-      },
-      {
-        text: `v${docsVersion}`,
-        items: [
-          { text: '🧱 参与贡献', link: '/contributing' },
-          { text: '🎉 更新日志', link: `${github}/releases` },
-        ],
-      },
+      { text: '💭 关于我们', link: '/zsxq' },
+      // {
+      //   text: '🔥 专栏',
+      //   items: [
+      //     { text: '🔥 最新专栏', link: '/algorithm/guide/' },
+      //     { text: '🔥 专家专栏', link: '/patterns/guide/' },
+      //     { text: '🔥 专栏归档', link: '/interview/' },
+      //   ],
+      // },
+      // {
+      //   text: 'AI 工具推荐',
+      //   items: [
+      //     { text: '⭐ 资源', link: '/favorites' },
+      //     { text: '🔧 更新日志', link: '/tool/' },
+      //     { text: '💻 FAQ', link: '/program/' },
+      //   ],
+      // },
+      // {
+      //   text: '心理学资源',
+      //   items: [
+      //     { text: '🌱 书籍推荐', link: '/essay/' },
+      //     { text: '🌱 视频讲座', link: '/essay/' },
+      //     { text: '🌱 心理测评工具', link: '/essay/' },
+      //     { text: '🌱 学术文章', link: '/green/ch' },
+      //     { text: '🌱 活动信息', link: '/green/ch' },
+      //   ],
+      // },
+      // {
+      //   text: `v${docsVersion}`,
+      //   items: [
+      //     { text: '🧱 参与贡献', link: '/contributing' },
+      //     { text: '🎉 更新日志', link: `${github}/releases` },
+      //   ],
+      // },
     ],
     algolia,
     sidebar,

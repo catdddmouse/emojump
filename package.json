@@ -33,7 +33,8 @@
     "lint": "eslint --cache .",
     "lint:fix": "nr lint --fix",
     "release": "esno scripts/release.ts",
-    "update": "esno scripts/update.ts"
+    "update": "esno scripts/update.ts",
+    "deploy": "tcb framework deploy"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.42.0",
